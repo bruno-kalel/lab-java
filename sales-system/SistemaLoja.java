@@ -42,7 +42,7 @@ public class SistemaLoja
         System.out.println(c2);
 
         List<Produto> venda = c3.getCarrinho();
-        Venda v1 = new Venda(venda, c1);
+        Venda v1 = new Venda(venda, c3);
         v1.vender();
         System.out.println();
 
